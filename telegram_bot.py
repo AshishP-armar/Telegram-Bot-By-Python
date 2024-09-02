@@ -16,7 +16,13 @@ def send_link(link):
 	
 
 # ****************** Photo Sending ****************
-def send_photo_caption(file,caption):
+def send_photo():
     files_photo = {'photo':open('file path','rb')}
-    responce_photo= requests.post(f"https://api.telegram.org/bot{token}/sendPhoto?chat_id=-4563384288&caption=Test Caption Image By Bot😡😭😞😚😍",files=files_photo)
+    responce_photo= requests.post(f"https://api.telegram.org/bot{token}/sendPhoto?chat_id=-4563384288",files=files_photo)
+    print(responce_photo)
+	
+# ****************** Video Sending ****************
+def send_video():
+    files_video = {'photo':open('file path','rb')}
+    responce_photo= requests.post(f"https://api.telegram.org/bot{token}/sendPhoto?chat_id=-4563384288",files=files_video)
     print(responce_photo)
