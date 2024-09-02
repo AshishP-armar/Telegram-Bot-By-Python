@@ -16,6 +16,9 @@
     1. Send message in telegram group - /my_id bot_username
     2. To fetch chat_id go to the :- https://api.telegram.org/api_key/getUpdates
     3. it will show like this (   {"ok":true,"result":[{"update_id":12345648,
-"message":{"message_id":76,"from":{"id":123456789,"is_bot":false,"first_name":"A","last_name":"TP"},********"chat":{"id":-123456789,***********"title":"group_name","type":"group","all_members_are_administrators":true},"date":1725288439,"text":"/id","entities":[{"offset":0,"length":3,"type":"bot_command"}]}},{"update_id":893875403,
-"message":{"message_id":77,"from":{"id":123456789,"is_bot":false,"first_name":"A","last_name":"TP"},"chat":{"id":-123456789,"title":"group_name","type":"group","all_members_are_administrators":true},"date":1725288457,"text":"/my_id @atp4455bot","entities":[{"offset":0,"length":6,"type":"bot_command"},{"offset":7,"length":11,"type":"mention"}]}}]}  )
+        "message":{"message_id":76,"from":{"id":123456789,"is_bot":false,"first_name":"A","last_name":"TP"},********"chat":{"id":-123456789,***********"title":"group_name","type":"group","all_members_are_administrators":true},"date":1725288439,"text":"/id","entities":[{"offset":0,"length":3,"type":"bot_command"}]}},{"update_id":893875403,
+        "message":{"message_id":77,"from":{"id":123456789,"is_bot":false,"first_name":"A","last_name":"TP"},"chat":{"id":-123456789,"title":"group_name","type":"group","all_members_are_administrators":true},"date":1725288457,"text":"/my_id @atp4455bot","entities":[{"offset":0,"length":6,"type":"bot_command"},{"offset":7,"length":11,"type":"mention"}]}}]}  )
+
     4. In The stars it will be the your chat_id
+    
+
