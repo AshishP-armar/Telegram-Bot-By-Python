@@ -29,7 +29,14 @@ def send_video():
 
 # ****************** Video Sending with caption ****************
 def send_video_caption():
-    files_video = {'photo':open('file path','rb')}
+    files_video = {'video':open('file path','rb')}
     caption = "this is video caption"
     responce_video= requests.post(f"https://api.telegram.org/bot{token}/sendVideo?chat_id=-4563384288&caption={caption}",files=files_video)
+    print(responce_video)
+
+# ****************** Photo Sending with caption ****************
+def send_image_caption():
+    files_image = {'photo':open('file path','rb')}
+    caption = "this is image caption"
+    responce_video= requests.post(f"https://api.telegram.org/bot{token}/sendVideo?chat_id=-4563384288&caption={caption}",files=files_image)
     print(responce_video)
