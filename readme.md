@@ -1,7 +1,7 @@
 1. Create a Telegram bot
 2. Send a message to a channel
 
-1. Create a Telegram bot
+##1. Create a Telegram bot
     To use the Telegram API, you will need to create a Telegram bot and obtain its API key. You can do this by talking to the BotFather in Telegram. To do this:
 
     1. Open the Telegram app on your smartphone or desktop.
